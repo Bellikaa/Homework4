@@ -1,0 +1,8 @@
+#Игнорировать файлы в .vagrant/
+.vagrant/
+#Игнорировать файл box и кеш:
+packer/*.box
+packer/packer_cache/
+.vagrant
+*.vdi
+
